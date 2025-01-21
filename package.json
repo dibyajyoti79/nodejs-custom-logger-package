@@ -1,0 +1,45 @@
+{
+  "name": "bj-logger-toolkit",
+  "version": "1.0.0",
+  "description": "A comprehensive logging toolkit for Node.js applications, featuring CloudWatch integration, daily log rotation, and Express compatibility.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "logging",
+    "logger",
+    "winston",
+    "cloudwatch",
+    "express",
+    "log-rotation",
+    "morgan",
+    "toolkit"
+  ],
+  "author": "Dibyajyoti <dibyajyoti.mahuri@bookingjini.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.731.1",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.10.7",
+    "@types/winston": "^2.4.4",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Bookingjini-Tech/bj-logger-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bookingjini-Tech/bj-logger-toolkit/issues"
+  },
+  "homepage": "https://github.com/Bookingjini-Tech/bj-logger-toolkit#readme"
+}
