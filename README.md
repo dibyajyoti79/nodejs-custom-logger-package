@@ -20,7 +20,7 @@ A versatile logging library tailored for Bookingjini, offering robust logging fu
 Install the package via npm:
 
 ```bash
-npm install @bookingjini/logger
+npm install bj-logger-toolkit
 ```
 
 ---
