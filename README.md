@@ -1,4 +1,3 @@
-````markdown
 # Bookingjini Logger Package
 
 A versatile logging library tailored for Bookingjini, offering robust logging functionalities with support for console, file, and AWS CloudWatch. Designed to be easy to use and scalable for various projects within the organization.
@@ -23,7 +22,6 @@ Install the package via npm:
 ```bash
 npm install @bookingjini/logger
 ```
-````
 
 ---
 
