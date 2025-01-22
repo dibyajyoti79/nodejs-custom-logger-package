@@ -1,5 +1,5 @@
 {
-  "name": "bj-logger-toolkit",
+  "name": "nodejs-custom-logger-package",
   "version": "1.0.0",
   "description": "A comprehensive logging toolkit for Node.js applications, featuring CloudWatch integration, daily log rotation, and Express compatibility.",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
     "morgan",
     "toolkit"
   ],
-  "author": "Dibyajyoti <dibyajyoti.mahuri@bookingjini.com>",
+  "author": "Dibyajyoti <code.dibya@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-cloudwatch-logs": "^3.731.1",

@@ -20,7 +20,7 @@ A versatile logging library tailored for Bookingjini, offering robust logging fu
 Install the package via npm:
 
 ```bash
-npm install bj-logger-toolkit
+npm install nodejs-custom-logger-package
 ```
 
 ---
@@ -32,7 +32,7 @@ npm install bj-logger-toolkit
 To create an application-wide logger, use the `createAppLogger` function with a configuration object.
 
 ```typescript
-import { createAppLogger } from "bj-logger-toolkit";
+import { createAppLogger } from "nodejs-custom-logger-package";
 
 const logger = createAppLogger({
   console: {
@@ -84,7 +84,7 @@ Use the `requestLogger` middleware to log HTTP requests and responses in your Ex
 
 ```typescript
 import express from "express";
-import { requestLogger } from "@bookingjini/logger";
+import { requestLogger } from "nodejs-custom-logger-package";
 
 const app = express();
 
