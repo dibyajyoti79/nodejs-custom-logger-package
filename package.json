@@ -1,6 +1,6 @@
 {
   "name": "nodejs-custom-logger-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive logging toolkit for Node.js applications, featuring CloudWatch integration, daily log rotation, and Express compatibility.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Bookingjini-Tech/bj-logger-toolkit.git"
+    "url": "git@github.com:dibyajyoti79/nodejs-custom-logger-package.git"
   },
   "bugs": {
-    "url": "https://github.com/Bookingjini-Tech/bj-logger-toolkit/issues"
+    "url": "https://github.com/dibyajyoti79/nodejs-custom-logger-package/issues"
   },
-  "homepage": "https://github.com/Bookingjini-Tech/bj-logger-toolkit#readme"
+  "homepage": "https://github.com/dibyajyoti79/nodejs-custom-logger-package#readme"
 }
